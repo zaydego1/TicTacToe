@@ -1,5 +1,4 @@
-from game import board
-
+import board
 def main():
     game_board = board.Board(3)
     game_board.move(0, 0, 1)
